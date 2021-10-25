@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "ignorePatterns": ["projects/**/*"],
+  "plugins": [],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "parserOptions": {
+        "project": ["tsconfig.json"],
+        "createDefaultProgram": true
+      }
+    }
+  ]
+}
